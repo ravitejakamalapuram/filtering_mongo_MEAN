@@ -25,6 +25,19 @@ app.post("/getConfig", function (req, res) {
 
 app.post("/getChartData", function (req, res) {
     service.saveUserFilters(req.body);
+    service.getchartData(req.body, function (err, result) {
+        if (err) {
+            res.status(500).send({
+                'error': 'Error while applying Filters',
+                'mag': err
+            });
+        }
+        res.send(result);
+    });
+});
+
+app.post("/getFilteredData", function (req, res) {
+    service.saveUserFilters(req.body);
     service.getFilteredData(req.body, function (err, result) {
         if (err) {
             res.status(500).send({

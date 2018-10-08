@@ -3,7 +3,8 @@ var config = {
     'data_base': 'randomData',
     'filter_config': 'filter_config',
     'user_filters': 'user_filters',
-    'patient_collection': 'patient'
+    'patient_collection': 'patient',
+    'med_id': ''
 }
 
 module.exports = {
