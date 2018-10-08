@@ -1,0 +1,140 @@
+[{
+        "pharma_field_id": 1,
+        "field_name": "column3",
+        "field_label": "City Prefix",
+        "group_name": "City",
+        "condition_json": {
+            "field_type": "checkbox",
+            "options": {
+                "1": "Lake",
+                "2": "New",
+                "3": "North",
+                "4": "South",
+                "5": "East"
+            }
+        },
+        "chart_type_json": {
+            "options": [
+                "Bar Chart",
+                "Word Cloud"
+            ]
+        },
+        "status": 1
+    },
+    {
+        "pharma_field_id": 2,
+        "field_name": "column140",
+        "field_label": "File type",
+        "group_name": "Image",
+        "condition_json": {
+            "field_type": "radio",
+            "options": {
+                "yes": "png",
+                "no": "gif"
+            }
+        },
+        "chart_type_json": {
+            "options": [
+                "Bar Chart",
+                "Word Cloud"
+            ]
+        },
+        "status": 1
+    },
+    {
+        "pharma_field_id": 3,
+        "field_name": "range",
+        "field_label": "Range",
+        "group_name": "Dashboard 1",
+        "condition_json": {
+            "field_type": "range"
+        },
+        "chart_type_json": {
+            "options": [
+                "Bar Chart",
+                "Histogram"
+            ]
+        },
+        "status": 1
+    },
+    {
+        "pharma_field_id": 4,
+        "field_name": "column44",
+        "field_label": "Week Day",
+        "group_name": "Week",
+        "condition_json": {
+            "field_type": "checkbox",
+            "options": {
+                "1": "Monday",
+                "2": "Tuesday",
+                "3": "Wednesday",
+                "4": "Thursday",
+                "5": "Friday"
+            }
+        },
+        "chart_type_json": {
+            "options": [
+                "Bar Chart",
+                "Word Cloud"
+            ]
+        },
+        "status": 1
+    },
+    {
+        "pharma_field_id": 5,
+        "field_name": "column130",
+        "field_label": "Boolean",
+        "group_name": "Bool",
+        "condition_json": {
+            "field_type": "radio",
+            "options": {
+                "yes": "true",
+                "no": "false"
+            }
+        },
+        "chart_type_json": {
+            "options": [
+                "Bar Chart",
+                "Word Cloud"
+            ]
+        },
+        "status": 1
+    },
+    {
+        "pharma_field_id": 7,
+        "field_name": "column104",
+        "field_label": "Word",
+        "group_name": "Words",
+        "condition_json": {
+            "field_type": "checkbox",
+            "options": {
+                "1": "et",
+                "2": "voluptatibus",
+                "3": "repudiandae"
+            }
+        },
+        "chart_type_json": {
+            "options": [
+                "Bar Chart",
+                "Word Cloud"
+            ]
+        },
+        "status": 1
+    },
+    {
+        "pharma_field_id": 6,
+        "field_name": "range",
+        "field_label": "Range 3",
+        "group_name": "Dashboard 3",
+        "condition_json": {
+            "field_type": "range"
+        },
+        "chart_type_json": {
+            "options": [
+                "Bar Chart",
+                "Histogram"
+            ]
+        },
+        "status": 1
+    }
+]
